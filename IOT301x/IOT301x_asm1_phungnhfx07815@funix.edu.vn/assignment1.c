@@ -17,7 +17,6 @@ double length_triangle_edge(double a[2], double b[2]) {
 }
 
 
-
 // Input length of edge Triangle
 int is_triangle(double a, double b, double c) {
   return a + b <= c ? 0 : (a +c <= b) ? 0 : (b + c <= a) ? 0 : 1;
